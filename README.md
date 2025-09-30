@@ -4,6 +4,7 @@ Credit Risk Modelling using Machine Learning
 This repository contains a comprehensive workflow for credit risk modelling using machine learning, focusing on preprocessing, feature selection, and advanced model tuning with XGBoost. The project demonstrates a complete pipeline from data processing to hyperparameter optimization, with documented model comparison and results.
 
 Project Overview
+
 The workflow builds a multi-class credit risk classification system using historical applicant and account activity features. Core methods include:
 
 Data loading, cleaning, and merging of multiple sources.
@@ -33,8 +34,10 @@ Clone this repository and navigate to its folder.
 Install the required libraries:
 
 bash
+
 pip install numpy pandas matplotlib scikit-learn xgboost openpyxl
 Usage
+
 Place input Excel files (case studies) in the working directory.
 
 Run the main notebook or script to execute the full pipeline:
@@ -54,9 +57,11 @@ Inspect the result files to analyze model performance and recommended configurat
 Example: Hyperparameter Search Output
 Combination	Train Acc	Test Acc	colsamplebytree	learningrate	maxdepth	alpha	n_estimators
 ...	...	...	...	...	...	...	...
+
 See full hyperparameter results in the xgboost_hyperparameter_results.xlsx file for details on all grid search runs.
 
 Results
+
 Best XGBoost Test Accuracy: Up to 0.822 observed during grid search.
 
 Robust analysis of parameter influence, including accuracy tradeoffs, heatmaps, and class-wise precision/recall for each model.
