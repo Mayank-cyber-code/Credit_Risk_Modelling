@@ -54,9 +54,6 @@ Exports results as xgboost_hyperparameter_results.xlsx
 
 Inspect the result files to analyze model performance and recommended configurations.
 
-Example: Hyperparameter Search Output
-Combination	Train Acc	Test Acc	colsamplebytree	learningrate	maxdepth	alpha	n_estimators
-...	...	...	...	...	...	...	...
 
 See full hyperparameter results in the xgboost_hyperparameter_results.xlsx file for details on all grid search runs.
 
