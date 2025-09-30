@@ -33,8 +33,6 @@ Clone this repository and navigate to its folder.
 
 Install the required libraries:
 
-bash
-
 pip install numpy pandas matplotlib scikit-learn xgboost openpyxl
 Usage
 
