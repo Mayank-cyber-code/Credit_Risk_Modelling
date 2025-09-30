@@ -1,5 +1,5 @@
 # Credit_Risk_Modelling
-Credit Risk Modelling using Machine Learning
+# Credit Risk Modelling using Machine Learning
 
 This repository contains a comprehensive workflow for credit risk modelling using machine learning, focusing on preprocessing, feature selection, and advanced model tuning with XGBoost. The project demonstrates a complete pipeline from data processing to hyperparameter optimization, with documented model comparison and results.
 
